@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      background: linear-gradient(170deg, #ffffff 50%, #e0f7ff 100%);
+    }
+
+    /* Sidebar Styles */
+    .sidenav {
+      height: 100vh;
+      width: 44px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #87CEEB;
+      overflow-x: hidden;
+      transition: width 0.3s ease;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+    }
+
+    .sidenav:hover {
+      width: 200px;
+    }
+
+    .sidenav a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      width: 100%;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      position: relative;
+    }
+
+    .sidenav a:hover {
+      background-color: #A1C6E7;
+    }
+
+    .sidenav a i {
+      margin-right: 10px;
+    }
+
+    .sidebar-logo {
+      width: 120px;
+      display: none;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .sidenav:hover .sidebar-logo {
+      display: block;
+      transform: scale(1.1);
+    }
+
+    /* Main Content Styles */
+    .main-content {
+      margin-left: 200px;
+      padding: 60px;
+      flex: 1;
+    }
+
+    .about-section {
+      margin: 60px auto;
+      padding: 20px;
+      max-width: 800px;
+      text-align: left;
+    }
+
+    .about-section h2 {
+      font-size: 36px;
+      color: #87CEEB;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .about-section p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidenav">
+    <img src="Trilles-wbdv111 (1)/image (1)/Logo.-removebg-preview.png" alt="Sidebar Logo" class="sidebar-logo" />
+    <a href="Jayems.html"><i class="fas fa-home"></i> Home</a>
+    <a href="About me.html"><i class="fas fa-info-circle"></i> About</a>
+    <a href="Skills.html"><i class="fas fa-briefcase"></i> Skills</a>
+    <a href="Contacts.html"><i class="fas fa-envelope"></i> Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="about-section">
+      <h2>About Me</h2>
+      <p>This site serves as a personal chronicle of my experiences navigating the vibrant and often demanding world of the celebrity scene. Here, I'll be sharing insights, anecdotes, and reflections from my time working alongside notable personalities, offering a behind-the-scenes glimpse into the unique dynamics and memorable moments that come with being a part of this fascinating industry in the Philippines.</p>
+    </div>
+  </div>
+</body>
+</html>
